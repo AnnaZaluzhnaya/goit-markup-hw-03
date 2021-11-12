@@ -19,6 +19,27 @@ body {
   --footer-tel-mail: rgba(255, 255, 255, 0.6);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /*логотип*/
 
 .logo-konstant {
@@ -39,18 +60,51 @@ body {
   text-decoration: none;
 }
 
+.whole-logo {
+  margin-right: 90px;
+}
+
 /*шапка*/
 .cap {
   background-color: var(--white-font);
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.connect {
+  margin-left: auto;
+}
+.header-navigation {
+  display: flex;
+}
+
 .nav-items {
   color: var(--main-font-color);
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
 }
+
+.nav:not(:last-child) {
+  margin-right: 53px;
+}
+
+.nav-connect:not(:last-child) {
+  margin-right: 53px;
+}
 .nav-items:hover,
 .nav-items:focus {
+  color: var(--brand-color);
+}
+
+.active {
   color: var(--brand-color);
 }
 
