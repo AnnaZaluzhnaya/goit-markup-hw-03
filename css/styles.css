@@ -42,6 +42,11 @@ ul {
   text-align: center;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*логотип*/
 
 .logo-konstant {
@@ -166,10 +171,45 @@ ul {
 .benefits {
   font-weight: bold;
   line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
+
+.benefits-list {
+  display: flex;
+  flex-basis: calc(100% / 4);
+  text-align: left;
+}
+
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.benefits-item {
+  width: 270px;
+}
+
 .description-of-benefits {
   line-height: 1.71;
   color: var(--paragraphs-mail-tel);
+}
+
+/* Чем мы занимаемся */
+
+.heading {
+  margin-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*наша команда студия*/
