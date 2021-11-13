@@ -35,7 +35,7 @@ ul {
   padding: 0;
 }
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -172,6 +172,7 @@ ul {
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 
@@ -192,6 +193,7 @@ ul {
 .description-of-benefits {
   line-height: 1.71;
   color: var(--paragraphs-mail-tel);
+  letter-spacing: 0.03em;
 }
 
 /* Чем мы занимаемся */
@@ -220,17 +222,46 @@ ul {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
+  margin-bottom: 50px;
 }
+
+.team-list {
+  display: flex;
+}
+
+.team-item {
+  width: 270px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .full-name {
   color: var(--main-font-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 .profession {
   font-size: 16px;
   line-height: 1.18px;
   color: var(--paragraphs-mail-tel);
+
+  letter-spacing: 0.03em;
 }
 
 /*кнопки портфолио*/
