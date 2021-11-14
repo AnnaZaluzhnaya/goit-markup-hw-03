@@ -220,6 +220,10 @@ img {
   margin-bottom: 50px;
 }
 
+.work {
+  padding-top: 0px;
+}
+
 .work-list {
   display: flex;
 
@@ -345,6 +349,14 @@ img {
   margin-top: calc(-1 * var(--portfolio-card-gap));
 }
 
+.portfolio-item:nth-child(3n + 1) {
+  margin-left: 0px;
+}
+
+.portfolio-item:nth-child(-n + 3) {
+  margin-top: 0px;
+}
+
 .card-content {
   padding: 20px 24px;
   text-align: left;
@@ -369,8 +381,6 @@ img {
 
 .footer-container {
   text-align: left;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-list {
@@ -379,6 +389,8 @@ img {
 
 .basement {
   background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .basement-item {
