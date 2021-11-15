@@ -346,7 +346,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--portfolio-card-gap));
-  margin-top: calc(-1 * var(--portfolio-card-gap));
 }
 
 .portfolio-item:nth-child(3n + 1) {
